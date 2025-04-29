@@ -11,6 +11,7 @@ class TPQueue {
     explicit Element(const T& val) : value(val), next(nullptr) {}
   };
   Element* first;
+
  public:
   TPQueue() : first(nullptr) {}
   ~TPQueue() {
